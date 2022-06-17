@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#food-header {
+    background-color: aqua;
+    border: 1px solid black;
+    border-radius: 0;
+}
+
+#brand-custom {
+    font-weight: bold;
+}
+
+#navbarSupportedContent {
+    border: 1px solid black;
+    border-top: 0;
+}
+
+.navbar-nav {
+    padding: 10px;
+}
+
+/****Main Content****/
+
+#title-custom {
+    margin: 30px 0;
+}
+
+.data-custom {
+    background-color: aqua;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.details {
+    padding: 10px 0;
+}
+
+.item-custom {
+    margin-bottom: 50px;
+    position: relative;
+}
+
+#beef-section,
+#chicken-section,
+#sushi-section {
+    position: relative;
+}
+
+.item-custom>div {
+    position: relative;
+}
+
+.section-button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    border: none;
+    padding: 3px;
+}
+
+.section-button:hover {
+    box-shadow: 0 0 30px salmon;
+}
+
+.section-button-link {
+    color: brown;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.section-button-link:hover {
+    color: brown;
+}
+
+/** Extra Small Devices **/
+
+@media (max-width: 767px) {
+    .container .row {
+        padding: 30px;
+    }
+}
+
+@media (min-width:576px) {
+    .container {
+        max-width: 100%;
+        padding: 0 30px;
+    }
+}
